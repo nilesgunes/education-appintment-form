@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Appointment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="sticky-menu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+
+    <main>
+        <div class="transparent-background">
+            
+            <form id="appointmentForm" action="submitted.html" method="get" onsubmit="return validateForm()">
+                <h2>Education Appointment Form</h2>
+
+                <select id="title" name="title" required>
+                    <option value="" disabled selected>Select your title</option>
+                </select>
+
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Select your city</option>
+                </select>
+
+                <select id="course" name="course" required>
+                    <option value="" disabled selected>Select course type</option>
+                </select>
+
+                <div>How would you like to be located?</div>
+
+                <select id="phoneLocation" name="phoneLocation" required>
+                    <option value="" disabled selected>Select Phone Location</option>
+                </select>
+
+                <select id="hoursLocation" name="hoursLocation" required>
+                    <option value="" disabled selected>Select Hours Location</option>
+                </select>
+
+                <label>
+                    <input type="checkbox" id="terms" required> I Agree to the <u>Terms & Conditions</u>
+                </label>
+                
+                <button type="submit">Request an appointment</button>
+            </form>
+        </div>
+    </main>
+
+    <div class="ad-container">
+        <button class="close-btn" onclick="closeAd()">X</button>
+        <a href="https://www.pullandbear.com/tr/" target="_blank">
+            <img src="aaa.webp" alt="Reklam" class="ad-image">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
