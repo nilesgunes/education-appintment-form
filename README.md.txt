@@ -31,9 +31,12 @@ This project is a simple and elegant web form used to make an education appointm
 JSON data structure created using Mocky.io:
 ```json
 {
- "city": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10"],
- "courseType": ["Course1", "Course2", "Course3", "Course4", "Course5", "Course6", "Course7", "Course8", "Course9", "Course10"],
- "title": ["Mr", "Ms", "Dr", "Prof", "Eng", "Hon", "Sir", "Madam", "Lady", "Mx"],
- "hours": ["8:00-10:00", "10:00-12:00", "12:00-14:00", "14:00-16:00", "16:00-18:00", "18:00-20:00", "20:00-22:00", "22:00-00:00", "00:00-02:00", "02:00-04:00"],
- "phoneLocation": ["Home", "Work", "Mobile", "Office", "Friend", "Other", "Service Center", "Campus", "Residence", "Community Center"]
+{
+  "title": ["Mr", "Ms", "Mrs", "Miss", "Dr", "Prof", "Rev", "Sir", "Madam", "Master"],
+  "city": ["Istanbul", "Ankara", "Izmir", "Bursa", "Antalya", "Adana", "Konya", "Trabzon", "Gaziantep", "Mersin"],
+  "courseType": ["Mathematics", "Physics", "Chemistry", "Biology", "Computer Science", "Engineering", "History", "Geography", "Literature", "Art"],
+  "phoneLocation": ["By phone", "In person", "Video call", "E-mail", "Text message", "WhatsApp", "Zoom", "Skype", "Telegram", "FaceTime"],
+  "hours": ["8:00-10:00", "10:00-12:00", "12:00-14:00", "14:00-16:00", "16:00-18:00", "18:00-20:00", "20:00-22:00", "22:00-00:00", "00:00-02:00", "02:00-04:00"]
+}
+
 }
